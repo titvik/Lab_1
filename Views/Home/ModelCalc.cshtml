@@ -1,0 +1,19 @@
+@model lab1.Models.CalcModel
+
+<h2>@ViewData["Headline"]</h2>
+
+<div>
+    <b>Rand Value First: @Model.RandValueFirst</b> <br>
+    <b>Rand Value Second: @Model.RandValueSecond</b> <br>
+    <b>Add :</b> <br>
+    @Model.RandValueFirst + @Model.RandValueSecond = @Model.Add <br>
+    <b>Sub :</b> <br>
+    @Model.RandValueFirst - @Model.RandValueSecond = @Model.Sub <br>
+    <b>Mult :</b> <br>
+    @Model.RandValueFirst * @Model.RandValueSecond = @Model.Mult <br>
+    <b>Div :</b> <br>
+    @Model.RandValueFirst / @Model.RandValueSecond = @Model.Div <br>
+   
+</div>
+<hr>  
+

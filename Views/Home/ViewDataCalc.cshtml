@@ -1,0 +1,19 @@
+@{
+    var calc = ViewData["Calc"] as CalcModel;
+}
+
+<h2>@ViewData["Headline"]</h2>
+
+<div>
+    <b>Rand Value First: @calc.RandValueFirst</b> <br>
+    <b>Rand Value Second: @calc.RandValueSecond</b> <br>
+    <b>Add :</b> <br>
+    @calc.RandValueFirst + @calc.RandValueSecond = @calc.Add <br>
+    <b>Sub :</b> <br>
+    @calc.RandValueFirst - @calc.RandValueSecond = @calc.Sub <br>
+    <b>Mult :</b> <br>
+    @calc.RandValueFirst * @calc.RandValueSecond = @calc.Mult <br>
+    <b>Div :</b> <br>
+    @calc.RandValueFirst/ @calc.RandValueSecond = @calc.Div <br>
+</div>
+<hr>  
